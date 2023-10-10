@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Alpha } from './Alpha';
+import { decrement } from './Store/Dispatch';
 function App() {
  
   class Person {
