@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { Alpha } from './Alpha';
 function App() {
  
   class Person {
@@ -57,7 +57,7 @@ console.log(Car.add())
 // person1.sayHello();
   return (
     <div className="App">
-  
+     <Alpha />
      <p>Tự học Coder</p>
     </div>
   );
