@@ -16,10 +16,13 @@ const reduxStores = configureStore(
   }
 )
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  <Provider store={reduxStores}>
+
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

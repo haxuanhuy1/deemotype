@@ -34,7 +34,7 @@ class Mercedes {
 }
 
 const S450 = new Mercedes("wirite" , "s450 maybach", 1200)
-console.log(S450)
+// console.log(S450)
 class Cours {
  public items : string;
  private temple: string;
@@ -50,7 +50,7 @@ class Cours {
 }
 const Car = new Cours("write" , "maybachS500" , 1200)
 // console.log(Car.items)
-console.log(Car.add())
+// console.log(Car.add())
 // Tạo một đối tượng từ lớp Person
 // let person1 = new Person("John", "học viện bưu chính viễn thông");
 // person1.sayHello(); // Output: "Hello, John Doe!"
