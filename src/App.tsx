@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Alpha } from './Alpha';
 import { decrement } from './Store/Dispatch';
+import {Json} from './Store/Json/Json'
 function App() {
  
   class Person {
@@ -59,6 +60,7 @@ const Car = new Cours("write" , "maybachS500" , 1200)
   return (
     <div className="App">
      <Alpha />
+     <Json />
      <p>Tự học Coder</p>
     </div>
   );
